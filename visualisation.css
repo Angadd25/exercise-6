@@ -1,0 +1,13 @@
+/* ../css/visualisation.css */
+.responsive-svg-container {
+    display: block;
+    width: 100%;
+    height: auto; /* Or a fixed aspect ratio if needed */
+    position: relative; /* For potential absolute positioning of elements within */
+}
+
+.responsive-svg-container svg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
